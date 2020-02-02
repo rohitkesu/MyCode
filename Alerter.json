@@ -1,0 +1,23 @@
+{
+  "genricAleter_authID": "EDG-TT-Type03",
+  "genricAleter_authCode": "d95c3dae92a321ca85e36bb67248f346",
+
+  "genricAleter_action": "toNetcool",
+
+  "genricAleter_netcool_data": {
+    "EDG_Identifier": "A || B || C || D",
+    "EDG_Severity": 3,
+    "EDG_IncidentTime": "1575924654",
+    "EDG_ConfigurationItem": "awsamenva1210",
+    "EDG_Node": "awsamenva1210.jnj.com",
+    "EDG_Summary": "Hive/Spark Sql connectivity failed",
+    "EDG_FullMessageText": "Message from beeline-check-new.sh: Hive/Spark Sql connectivity failed. Hostname:awsamenva2185 Port:10005 Username:SA-JJC-fit-spark-mon",
+    "EDG_FullMessageText_base64": "TWVzc2FnZSBmcm9tIGJlZWxpbmUtY2hlY2stbmV3LnNoOiBIaXZlL1NwYXJrIFNxbCBjb25uZWN0
+aXZpdHkgZmFpbGVkLiBIb3N0bmFtZTphd3NhbWVudmEyMTg1IFBvcnQ6MTAwMDUgVXNlcm5hbWU6
+U0EtSkpDLWZpdC1zcGFyay1tb24K"
+  },
+
+  "message": "Message from beeline-check-new.sh: Hive/Spark Sql connectivity failed. Hostname:awsamenva2185 Port:10005 Username:SA-JJC-fit-spark-mon",
+  "short_message": "Hive/Spark Sql connectivity failed",
+  "version": "1.1"
+}

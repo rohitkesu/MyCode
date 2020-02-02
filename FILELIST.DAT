@@ -1,0 +1,13 @@
+#Usage: 
+#[F,D]:[No of days]:[Directory Path to Search]:[Pattern] 
+#
+# [F,D] F  For file operations, D - Directories to be deleted
+# [No of days] - e.g. 20 - Files not modified last 20 days will be retained, rest will be removed
+# [Directory Path] - Must be a directory path.
+# [Pattern] - e.g - *spark* to search for all spark directories. * or blank for all searches.
+#
+#F:2:/tmp:*spark*
+#F:2:/var/log/chef:*
+#D:1:/etc:*cron*
+#F:2:/var/log/chef:
+D:408:/tmp:*_resources
